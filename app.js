@@ -34,7 +34,7 @@ app.post("/", (req, res) => {
 
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us21.api.mailchimp.com/3.0/listss/" + LISTID;
+  const url = "https://us21.api.mailchimp.com/3.0/lists/" + LISTID;
   const options = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
